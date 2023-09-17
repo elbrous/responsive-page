@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    
+}
+.logo{
+    background-color: #d11111;
+    color: white;
+    padding: 1rem;
+    margin: 1px;
+    flex-basis: 100%;
+    font-size: xx-large;
+    font-style: initial;
+    font-weight: bolder;
+}
+
+.container{
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.content1{
+    background-color: goldenrod;
+    color: white;
+    flex-basis: 50%;
+    
+}
+.img1{
+    background-color: gold;
+    flex-basis: 50%;
+}
+.content2{
+    background-color:goldenrod;
+    color: white;
+    flex-basis: 50%;
+}
+.img2{
+    background-color: gold;
+    flex-basis: 50%;
+}
+
+.footer{
+    background-color: #d11111;
+    color: white;
+    flex-basis: 100%;  
+    counter-set: 100;
+}
+
+@media screen and (max-width: 600px) {
+ .content1{flex-basis: 100%;}
+ .img1{flex-basis: 100%;}
+ .content2{flex-basis: 100%;}
+ .img2{flex-basis: 100%;}
+
+}
